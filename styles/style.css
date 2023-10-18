@@ -1,0 +1,11 @@
+:root {
+    --backgorund-color: #EBECEE;
+}
+
+body {
+    background-color: var(--backgorund-color);
+}
+
+h1 {
+    background-color: white;
+}
