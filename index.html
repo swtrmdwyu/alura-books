@@ -7,10 +7,41 @@
 
     <!-- estilos -->
     <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    
+    <link rel="stylesheet" href="./style.css">    
 </head>
 <body>
-    <h1>Alura Books</h1>
+    <header class="header">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__button">
+            <label for="menu">
+                <span class="header__menu-hamburger container__imagem"></span>
+            </label>
+            <ul class="list-menu">
+                <li class="list-menu__item list-menu__title">Categorias</li>
+                <li class="list-menu__item">
+                    <a href="#" class="list-menu__link">Programação</a>
+                </li>
+                <li class="list-menu__item">
+                    <a href="#" class="list-menu__link">Front-end</a>
+                </li>
+                <li class="list-menu__item">
+                    <a href="#" class="list-menu__link">Infraestrutura</a>
+                </li>
+                <li class="list-menu__item">
+                    <a href="#" class="list-menu__link">Business</a>
+                </li>
+                <li class="list-menu__item">
+                    <a href="#" class="list-menu__link">Design & UX</a>
+                </li>
+            </ul>
+            <img src="./assets/img/logo.svg" alt="Logo da Alura Book" class="container__imagem">
+        </div>
+        
+        <div class="container">
+            <a href="#"><img src="./assets/img/favorites.svg" alt="Meus Favoritos" class="container__imagem"></a>
+            <a href="#"><img src="./assets/img/bag.svg" alt="Carrinho de compras" class="container__imagem"></a>
+            <a href="#"><img src="./assets/img/user.svg" alt="Meu perfil" class="container__imagem"></a>
+        </div>
+    </header>
 </body>
 </html>
