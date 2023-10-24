@@ -26,3 +26,28 @@
     padding: 1em;
     text-decoration: none;
 }
+
+@media screen and (min-width: 768px) {
+    .topics {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .topics__list {
+        width: 80%;
+    }
+    .topics__title {
+        font-size: 1.5rem;
+    }
+    .topics__link {
+        font-size: 1.25rem;
+    }
+}
+
+@media  screen and (min-width: 1280px) {
+    .topics {
+        padding: 3em 20vw;
+    }
+}

@@ -19,17 +19,47 @@
     background-color: transparent;
     border: 1px solid var(--primary-color);
     border-radius: 24px;
-    padding: 1em;
     color: var(--primary-color);
+    padding: 1em;
     width: 100%;
 
 }
 
 .banner__search::placeholder {
+    background: url('../../assets/img/search.svg') no-repeat;
+    background-position: left center;
     color: var(--primary-color);
     font-family: var(--principal-font);
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    background: url('../../assets/img/search.svg') no-repeat 1.5em;
+}
+
+@media screen and (min-width: 768px) {
+    .banner__title {
+        font-size: 2.5rem
+
+    }
+
+    .banner__search {
+        width: 50%;
+    }
+
+    .banner__search::placeholder {
+        background-position: left center;
+    }
+}
+
+@media  screen and (min-width: 1280px) {
+    .banner {
+        padding: 6em;
+    }
+
+    .banner__search {
+        width: 45%;
+    }
+
+    .banner__search::placeholder {
+        background-position: left center;
+    }
 }
